@@ -5,7 +5,7 @@ from langchain_core.messages import HumanMessage
 from app.graph import graph
 from app.chroma_client import ingest_pdf
 
-ingest_pdf("Foundations_of_Strength_Training.pdf")
+# ingest_pdf("Foundations_of_Strength_Training.pdf")
 
 config = {"configurable": {"thread_id": "user-1"}}
 
